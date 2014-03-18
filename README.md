@@ -2,7 +2,7 @@
 A simple command line tool to quickly set up an http server that serves one file
 
 ```
-npm install quick-serve
+npm install -g quick-serve
 ```
 
 ```
