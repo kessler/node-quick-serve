@@ -4,7 +4,6 @@ A simple command line tool to quickly set up an http server that serves one file
 ```
 npm install -g quick-serve
 ```
-
 # usage
 ```
 quickserve myfile
