@@ -1,6 +1,6 @@
 {
   "name": "quick-serve",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "quickly start an http download server for a single file from command line",
   "main": "index.js",
   "bin": {
