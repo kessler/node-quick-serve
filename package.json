@@ -1,0 +1,22 @@
+{
+  "name": "quick-serve",
+  "version": "0.0.1",
+  "description": "quickly start an http download server for a single file from command line",
+  "main": "index.js",
+  "bin": {
+    "quickserve": "index.js",
+    "quick-serve": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kessler/node-quick-serve"
+  },
+  "author": "Yaniv Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kessler/node-quick-serve/issues"
+  },
+  "dependencies": {
+    "mime": "~1.2.11"
+  }
+}
