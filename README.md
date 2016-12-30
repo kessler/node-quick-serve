@@ -1,10 +1,15 @@
 # quick serve
-A simple command line tool to quickly set up an http server that serves one file
+quickly start an http download server and serve a single file or a directory from command line
 
 ```
 npm install -g quick-serve
 ```
 # usage
+```
+quickserve
+```
+serve current directory at http://localhost:12345
+
 ```
 quickserve myfile
 ```
