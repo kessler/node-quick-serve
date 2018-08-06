@@ -17,7 +17,7 @@
     "url": "https://github.com/kessler/node-quick-serve/issues"
   },
   "dependencies": {
-    "mime": "~1.2.11",
-    "ecstatic": "^2.1.0"
+    "ecstatic": "^2.1.0",
+    "mime": "^2.3.1"
   }
 }
