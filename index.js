@@ -17,7 +17,7 @@ var stat = fs.statSync(realFilename)
 var app
 
 if (stat.isFile()) {
-	var contentType = mime.lookup(realFilename)
+	var contentType = mime.getType(realFilename)
 	var contentDisposition = util.format('attachment; filename="%s"', path.basename(realFilename))
 
 	app = function(request, response) {
